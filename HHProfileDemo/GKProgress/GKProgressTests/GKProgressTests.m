@@ -1,6 +1,6 @@
 //
-//  testTests.m
-//  testTests
+//  GKProgressTests.m
+//  GKProgressTests
 //
 //  Created by APPLE on 15/12/11.
 //  Copyright © 2015年 HHDD. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface testTests : XCTestCase
+@interface GKProgressTests : XCTestCase
 
 @end
 
-@implementation testTests
+@implementation GKProgressTests
 
 - (void)setUp {
     [super setUp];

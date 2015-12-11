@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1898F6571C1B0D7400749501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898F6561C1B0D7400749501 /* main.m */; };
+		1898F65A1C1B0D7400749501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898F6591C1B0D7400749501 /* AppDelegate.m */; };
+		1898F65D1C1B0D7400749501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898F65C1C1B0D7400749501 /* ViewController.m */; };
+		1898F6601C1B0D7400749501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898F65E1C1B0D7400749501 /* Main.storyboard */; };
+		1898F6621C1B0D7400749501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898F6611C1B0D7400749501 /* Assets.xcassets */; };
+		1898F6651C1B0D7400749501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898F6631C1B0D7400749501 /* LaunchScreen.storyboard */; };
+		1898F6701C1B0D7400749501 /* GKProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898F66F1C1B0D7400749501 /* GKProgressTests.m */; };
+		1898F67B1C1B0D7400749501 /* GKProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898F67A1C1B0D7400749501 /* GKProgressUITests.m */; };
+		1898F68A1C1B0DEC00749501 /* GKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898F6891C1B0DEC00749501 /* GKProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1898F66C1C1B0D7400749501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1898F64A1C1B0D7400749501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1898F6511C1B0D7400749501;
+			remoteInfo = GKProgress;
+		};
+		1898F6771C1B0D7400749501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1898F64A1C1B0D7400749501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1898F6511C1B0D7400749501;
+			remoteInfo = GKProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1898F6521C1B0D7400749501 /* GKProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1898F6561C1B0D7400749501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1898F6581C1B0D7400749501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1898F6591C1B0D7400749501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1898F65B1C1B0D7400749501 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1898F65C1C1B0D7400749501 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1898F65F1C1B0D7400749501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1898F6611C1B0D7400749501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1898F6641C1B0D7400749501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1898F6661C1B0D7400749501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1898F66B1C1B0D7400749501 /* GKProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1898F66F1C1B0D7400749501 /* GKProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKProgressTests.m; sourceTree = "<group>"; };
+		1898F6711C1B0D7400749501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1898F6761C1B0D7400749501 /* GKProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1898F67A1C1B0D7400749501 /* GKProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKProgressUITests.m; sourceTree = "<group>"; };
+		1898F67C1C1B0D7400749501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1898F6881C1B0DEC00749501 /* GKProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKProgressView.h; sourceTree = "<group>"; };
+		1898F6891C1B0DEC00749501 /* GKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1898F64F1C1B0D7400749501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898F6681C1B0D7400749501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898F6731C1B0D7400749501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1898F6491C1B0D7400749501 = {
+			isa = PBXGroup;
+			children = (
+				1898F6881C1B0DEC00749501 /* GKProgressView.h */,
+				1898F6891C1B0DEC00749501 /* GKProgressView.m */,
+				1898F6541C1B0D7400749501 /* GKProgress */,
+				1898F66E1C1B0D7400749501 /* GKProgressTests */,
+				1898F6791C1B0D7400749501 /* GKProgressUITests */,
+				1898F6531C1B0D7400749501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1898F6531C1B0D7400749501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1898F6521C1B0D7400749501 /* GKProgress.app */,
+				1898F66B1C1B0D7400749501 /* GKProgressTests.xctest */,
+				1898F6761C1B0D7400749501 /* GKProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1898F6541C1B0D7400749501 /* GKProgress */ = {
+			isa = PBXGroup;
+			children = (
+				1898F6581C1B0D7400749501 /* AppDelegate.h */,
+				1898F6591C1B0D7400749501 /* AppDelegate.m */,
+				1898F65B1C1B0D7400749501 /* ViewController.h */,
+				1898F65C1C1B0D7400749501 /* ViewController.m */,
+				1898F65E1C1B0D7400749501 /* Main.storyboard */,
+				1898F6611C1B0D7400749501 /* Assets.xcassets */,
+				1898F6631C1B0D7400749501 /* LaunchScreen.storyboard */,
+				1898F6661C1B0D7400749501 /* Info.plist */,
+				1898F6551C1B0D7400749501 /* Supporting Files */,
+			);
+			path = GKProgress;
+			sourceTree = "<group>";
+		};
+		1898F6551C1B0D7400749501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1898F6561C1B0D7400749501 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1898F66E1C1B0D7400749501 /* GKProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				1898F66F1C1B0D7400749501 /* GKProgressTests.m */,
+				1898F6711C1B0D7400749501 /* Info.plist */,
+			);
+			path = GKProgressTests;
+			sourceTree = "<group>";
+		};
+		1898F6791C1B0D7400749501 /* GKProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1898F67A1C1B0D7400749501 /* GKProgressUITests.m */,
+				1898F67C1C1B0D7400749501 /* Info.plist */,
+			);
+			path = GKProgressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1898F6511C1B0D7400749501 /* GKProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1898F67F1C1B0D7400749501 /* Build configuration list for PBXNativeTarget "GKProgress" */;
+			buildPhases = (
+				1898F64E1C1B0D7400749501 /* Sources */,
+				1898F64F1C1B0D7400749501 /* Frameworks */,
+				1898F6501C1B0D7400749501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKProgress;
+			productName = GKProgress;
+			productReference = 1898F6521C1B0D7400749501 /* GKProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1898F66A1C1B0D7400749501 /* GKProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1898F6821C1B0D7400749501 /* Build configuration list for PBXNativeTarget "GKProgressTests" */;
+			buildPhases = (
+				1898F6671C1B0D7400749501 /* Sources */,
+				1898F6681C1B0D7400749501 /* Frameworks */,
+				1898F6691C1B0D7400749501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1898F66D1C1B0D7400749501 /* PBXTargetDependency */,
+			);
+			name = GKProgressTests;
+			productName = GKProgressTests;
+			productReference = 1898F66B1C1B0D7400749501 /* GKProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1898F6751C1B0D7400749501 /* GKProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1898F6851C1B0D7400749501 /* Build configuration list for PBXNativeTarget "GKProgressUITests" */;
+			buildPhases = (
+				1898F6721C1B0D7400749501 /* Sources */,
+				1898F6731C1B0D7400749501 /* Frameworks */,
+				1898F6741C1B0D7400749501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1898F6781C1B0D7400749501 /* PBXTargetDependency */,
+			);
+			name = GKProgressUITests;
+			productName = GKProgressUITests;
+			productReference = 1898F6761C1B0D7400749501 /* GKProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1898F64A1C1B0D7400749501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HHDD;
+				TargetAttributes = {
+					1898F6511C1B0D7400749501 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1898F66A1C1B0D7400749501 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1898F6511C1B0D7400749501;
+					};
+					1898F6751C1B0D7400749501 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1898F6511C1B0D7400749501;
+					};
+				};
+			};
+			buildConfigurationList = 1898F64D1C1B0D7400749501 /* Build configuration list for PBXProject "GKProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1898F6491C1B0D7400749501;
+			productRefGroup = 1898F6531C1B0D7400749501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1898F6511C1B0D7400749501 /* GKProgress */,
+				1898F66A1C1B0D7400749501 /* GKProgressTests */,
+				1898F6751C1B0D7400749501 /* GKProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1898F6501C1B0D7400749501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898F6651C1B0D7400749501 /* LaunchScreen.storyboard in Resources */,
+				1898F6621C1B0D7400749501 /* Assets.xcassets in Resources */,
+				1898F6601C1B0D7400749501 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898F6691C1B0D7400749501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898F6741C1B0D7400749501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1898F64E1C1B0D7400749501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898F65D1C1B0D7400749501 /* ViewController.m in Sources */,
+				1898F68A1C1B0DEC00749501 /* GKProgressView.m in Sources */,
+				1898F65A1C1B0D7400749501 /* AppDelegate.m in Sources */,
+				1898F6571C1B0D7400749501 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898F6671C1B0D7400749501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898F6701C1B0D7400749501 /* GKProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898F6721C1B0D7400749501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898F67B1C1B0D7400749501 /* GKProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1898F66D1C1B0D7400749501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1898F6511C1B0D7400749501 /* GKProgress */;
+			targetProxy = 1898F66C1C1B0D7400749501 /* PBXContainerItemProxy */;
+		};
+		1898F6781C1B0D7400749501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1898F6511C1B0D7400749501 /* GKProgress */;
+			targetProxy = 1898F6771C1B0D7400749501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1898F65E1C1B0D7400749501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1898F65F1C1B0D7400749501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1898F6631C1B0D7400749501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1898F6641C1B0D7400749501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1898F67D1C1B0D7400749501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1898F67E1C1B0D7400749501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1898F6801C1B0D7400749501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GKProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhddsc.m.GKProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1898F6811C1B0D7400749501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GKProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhddsc.m.GKProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1898F6831C1B0D7400749501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GKProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhddsc.m.GKProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKProgress.app/GKProgress";
+			};
+			name = Debug;
+		};
+		1898F6841C1B0D7400749501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GKProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhddsc.m.GKProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKProgress.app/GKProgress";
+			};
+			name = Release;
+		};
+		1898F6861C1B0D7400749501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GKProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhddsc.m.GKProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKProgress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1898F6871C1B0D7400749501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GKProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhddsc.m.GKProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKProgress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1898F64D1C1B0D7400749501 /* Build configuration list for PBXProject "GKProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1898F67D1C1B0D7400749501 /* Debug */,
+				1898F67E1C1B0D7400749501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1898F67F1C1B0D7400749501 /* Build configuration list for PBXNativeTarget "GKProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1898F6801C1B0D7400749501 /* Debug */,
+				1898F6811C1B0D7400749501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1898F6821C1B0D7400749501 /* Build configuration list for PBXNativeTarget "GKProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1898F6831C1B0D7400749501 /* Debug */,
+				1898F6841C1B0D7400749501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1898F6851C1B0D7400749501 /* Build configuration list for PBXNativeTarget "GKProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1898F6861C1B0D7400749501 /* Debug */,
+				1898F6871C1B0D7400749501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1898F64A1C1B0D7400749501 /* Project object */;
+}

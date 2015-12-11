@@ -1,6 +1,6 @@
 //
-//  testUITests.m
-//  testUITests
+//  GKProgressUITests.m
+//  GKProgressUITests
 //
 //  Created by APPLE on 15/12/11.
 //  Copyright © 2015年 HHDD. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface testUITests : XCTestCase
+@interface GKProgressUITests : XCTestCase
 
 @end
 
-@implementation testUITests
+@implementation GKProgressUITests
 
 - (void)setUp {
     [super setUp];

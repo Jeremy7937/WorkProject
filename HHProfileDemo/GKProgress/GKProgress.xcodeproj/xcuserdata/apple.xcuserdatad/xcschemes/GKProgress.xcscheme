@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18F59D2D1C1ABE7800429784"
-               BuildableName = "test.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BlueprintIdentifier = "1898F6511C1B0D7400749501"
+               BuildableName = "GKProgress.app"
+               BlueprintName = "GKProgress"
+               ReferencedContainer = "container:GKProgress.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18F59D461C1ABE7800429784"
-               BuildableName = "testTests.xctest"
-               BlueprintName = "testTests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BlueprintIdentifier = "1898F66A1C1B0D7400749501"
+               BuildableName = "GKProgressTests.xctest"
+               BlueprintName = "GKProgressTests"
+               ReferencedContainer = "container:GKProgress.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18F59D511C1ABE7800429784"
-               BuildableName = "testUITests.xctest"
-               BlueprintName = "testUITests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BlueprintIdentifier = "1898F6751C1B0D7400749501"
+               BuildableName = "GKProgressUITests.xctest"
+               BlueprintName = "GKProgressUITests"
+               ReferencedContainer = "container:GKProgress.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18F59D2D1C1ABE7800429784"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintIdentifier = "1898F6511C1B0D7400749501"
+            BuildableName = "GKProgress.app"
+            BlueprintName = "GKProgress"
+            ReferencedContainer = "container:GKProgress.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18F59D2D1C1ABE7800429784"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintIdentifier = "1898F6511C1B0D7400749501"
+            BuildableName = "GKProgress.app"
+            BlueprintName = "GKProgress"
+            ReferencedContainer = "container:GKProgress.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18F59D2D1C1ABE7800429784"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintIdentifier = "1898F6511C1B0D7400749501"
+            BuildableName = "GKProgress.app"
+            BlueprintName = "GKProgress"
+            ReferencedContainer = "container:GKProgress.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

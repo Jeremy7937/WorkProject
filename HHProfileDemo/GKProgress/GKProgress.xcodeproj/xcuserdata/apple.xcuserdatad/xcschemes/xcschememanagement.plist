@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>test.xcscheme</key>
+		<key>GKProgress.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>18F59D2D1C1ABE7800429784</key>
+		<key>1898F6511C1B0D7400749501</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>18F59D461C1ABE7800429784</key>
+		<key>1898F66A1C1B0D7400749501</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>18F59D511C1ABE7800429784</key>
+		<key>1898F6751C1B0D7400749501</key>
 		<dict>
 			<key>primary</key>
 			<true/>
