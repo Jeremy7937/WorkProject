@@ -12,15 +12,32 @@
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet GKProgressView *progressView;
+@property (nonatomic, strong) NSTimer *myTimer;
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
 
 @end
 
 @implementation ViewController
-
+{
+    CGFloat _value;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.myTimer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(timerStar:) userInfo:nil repeats:YES];
+}
+
+- (void)timerStar:(NSTimer *)timer {
     
+    _value+= 0.01;
+    self.progressView.progress = _value;
+    self.mySlider.value = _value;
+    
+    if (_value > 0.76) {
+        [self.myTimer setFireDate:[NSDate distantFuture]];
+        return;
+    }
+
 }
 
 

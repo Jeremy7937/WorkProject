@@ -49,6 +49,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="mySlider" destination="SFK-TY-mNI" id="Tjj-2C-9HR"/>
                         <outlet property="progressView" destination="ANc-5u-PwY" id="FY3-yc-VqN"/>
                     </connections>
                 </viewController>
